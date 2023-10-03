@@ -16,7 +16,7 @@ public class LinkedListDemo {
         // list.push("C");
         // list.push("D");
         // list.push("F");
-        // System.out.println(list.peek());
+        // System.out.println(list.peek());~
         // list.pop();
         // System.out.println(list);
 
