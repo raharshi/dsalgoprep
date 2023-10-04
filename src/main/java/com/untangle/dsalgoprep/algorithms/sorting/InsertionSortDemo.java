@@ -10,6 +10,7 @@ public class InsertionSortDemo {
     /*
      * Complexity
      * Quadratic time O(n^2)
+     * Constant Space O(1) -- as we don't create any new arrays
      * small dataset - decent
      * large dataset - BAD
      */

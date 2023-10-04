@@ -12,6 +12,7 @@ public class BubbleSortDemo {
     /*
      * Complexity
      * Quadratic time O(n^2)
+     * Constant Space O(1) -- as we don't create any new arrays
      * small dataset - okay-ish
      * large dataset - BAD
      */
