@@ -1,4 +1,4 @@
-package com.untangle.dsalgoprep.datastructures;
+package com.untangle.dsalgoprep.algorithms.searching;
 
 public class LinearSearchDemo {
     /*** Linear Search:: Iterates through collection one element at a time - O(n)***/

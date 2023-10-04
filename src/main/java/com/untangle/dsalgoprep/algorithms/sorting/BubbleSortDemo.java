@@ -1,4 +1,4 @@
-package com.untangle.dsalgoprep.datastructures;
+package com.untangle.dsalgoprep.algorithms.sorting;
 
 public class BubbleSortDemo {
 

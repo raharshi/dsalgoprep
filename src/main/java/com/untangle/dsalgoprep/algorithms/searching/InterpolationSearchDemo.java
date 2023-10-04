@@ -1,4 +1,4 @@
-package com.untangle.dsalgoprep.datastructures;
+package com.untangle.dsalgoprep.algorithms.searching;
 
 public class InterpolationSearchDemo {
     /* Improvement over Binary Search, best used for "Uniformly" distributed "guesses" where a value might be based

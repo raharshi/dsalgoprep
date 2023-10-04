@@ -1,4 +1,4 @@
-package com.untangle.dsalgoprep.datastructures;
+package com.untangle.dsalgoprep.algorithms.searching;
 
 import java.util.Arrays;
 
