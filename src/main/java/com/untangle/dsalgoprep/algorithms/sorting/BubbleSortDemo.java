@@ -2,9 +2,19 @@ package com.untangle.dsalgoprep.algorithms.sorting;
 
 public class BubbleSortDemo {
 
-    /* Sorts heavy elements to right side one at a time 
-    * eventually left elements would be light ( rocks to right, then comes sand, then comes bubbles) 
+    /* 
+    * Sorts bigger elements to right side one at a time by comparing two elements starting from beginning.
+    * eventually left elements would be smaller (like in sea, rocks to bottom, 
+    * then comes sand, then comes water and bubbles).
+    * Uses single temp variable to swap variables.
     */
+
+    /*
+     * Complexity
+     * Quadratic time O(n^2)
+     * small dataset - okay-ish
+     * large dataset - BAD
+     */
 
     public static void main(String[] args) {
         int[] array = {9,1,8,2,7,3,6,4,5};
