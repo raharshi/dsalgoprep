@@ -49,6 +49,7 @@ public class MergeSortDemo {
         int rightSize =rightArray.length;
         int i=0, l=0, r=0;  //indices
 
+        // check the conditions for merging
         while(l< leftSize && r < rightSize){
             if(leftArray[l] < rightArray[r]){
                 array[i] = leftArray[l];
