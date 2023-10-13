@@ -22,29 +22,28 @@ public class MergeSortDemo {
         }
     }
 
-    private static void mergeSort(int[] array){
-        int length = array.length;
-        if(length<=1) return;
-        int middle = length/2;
-        int[] leftArray = new int[middle];
-        int[] rightArray = new int[length-middle];
-
-        int i=0;
+    private static void mergeSort(int[] arr){
+        int n = arr.length;
+        if(n<=1) return;
+        int mid = n/2;
+        int[] leftArr = new int[mid];
+        int[] rightArr = new int[n-mid];
         int j=0;
-        for(; i < length;i++){
-            if(i< middle){
-                leftArray[i]= array[i];
+        int i =0;
+        for(; i<n;i++){
+            if(i<mid){
+                leftArr[i]=arr[i];
             }else{
-                rightArray[j]=array[i];
+                rightArr[j]=arr[i];
                 j++;
             }
         }
-        mergeSort(leftArray);
-        mergeSort(rightArray);
-        merge(leftArray, rightArray, array);
+        mergeSort(leftArr);
+        mergeSort(rightArr);
+        merge(arr, leftArr,rightArr);
     }
 
-    private static void merge(int[] leftArray, int[] rightArray, int[] array){
+    private static void merge(int[] array, int[] leftArray, int[] rightArray){
         int leftSize = leftArray.length;
         int rightSize =rightArray.length;
         int i=0, l=0, r=0;  //indices

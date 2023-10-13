@@ -1,6 +1,5 @@
 package com.untangle.dsalgoprep.algorithms.searching;
 
-import java.util.Arrays;
 
 public class BinarySearchDemo {
     /*** Finds the index of a target value in a sorted array ***/
